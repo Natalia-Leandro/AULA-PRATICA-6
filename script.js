@@ -61,7 +61,7 @@ function renderizar(alunos) {
       <td>${a.turma}</td>
       <td>${a.curso}</td>
       <td>${a.matricula}</td>
-      <td class="d-flex gap-2">
+      <td class="d-flex justify-content-center gap-2">
         <a href="form.html?id=${a.id}" class="btn btn-sm btn-primary">
           <i class="fas fa-edit"></i> Editar
         </a>
